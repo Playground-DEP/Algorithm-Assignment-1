@@ -10,10 +10,12 @@ public class Algo_3 {
         nums1[i-1] = nums[nums.length-i];
     }
 
+    nums = nums1;
+
     
         System.out.print("[");
     for (int i = 0; i < nums1.length; i++) {
-        System.out.print(nums1[i] + ", ");
+        System.out.print(nums[i] + ", ");
     }
     System.out.print("\b\b]");
     }
